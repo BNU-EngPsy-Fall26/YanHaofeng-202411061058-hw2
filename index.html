@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f4f7fb"><meta name="description" content="看见与判断：工程心理学注意实验室，包含地图定向、变化盲、PCP显示及自愿眼动校准。">
+<title>见微 · 注意实验室 | W5–W8</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div id="app">
+  <header class="topbar">
+    <a class="brand" href="#" id="homeLink" aria-label="返回首页"><span class="brand-mark">◈</span><span><strong>见微 <em>Attention Lab</em></strong><small>工程心理学 · 感知与注意实验</small></span></a>
+    <nav class="topnav" aria-label="主导航"><button type="button" class="navlink active" data-nav="home">实验大厅</button><button type="button" class="navlink" data-nav="models">理论模型</button><button type="button" class="navlink" data-nav="data">数据中心</button><button type="button" class="navlink" data-nav="about">研究说明</button></nav>
+    <div class="top-actions"><span class="online-dot" id="networkStatus" title="网络状态"></span><button class="mini-button" id="modeTop">眼动模式</button><button class="user-pill" id="personTop">未设置编号</button></div>
+  </header>
+  <main id="screen" tabindex="-1"></main>
+  <footer class="site-footer"><span>BUILT FOR ATTENTION · 2026</span><span>研究复现与改进 · 数据匿名 · 摄像头视频不上传</span></footer>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="./js/config.js" defer></script>
+<script src="./js/utils.js" defer></script>
+<script src="./js/gaze.js" defer></script>
+<script src="./js/maps.js" defer></script>
+<script src="./js/change.js" defer></script>
+<script src="./js/pcp.js" defer></script>
+<script src="./js/data.js" defer></script>
+<script src="./js/app.js" defer></script>
+</body>
+</html>
